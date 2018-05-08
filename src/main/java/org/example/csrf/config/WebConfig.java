@@ -31,7 +31,7 @@ public class WebConfig implements ServletContextInitializer {
 	private WebApplicationContext configContext() {
 		log.info("Retrieving Context");
 		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-		context.setConfigLocation("hello");
+		context.setConfigLocation("org.example.csrf.config");
 		return context;
 	}
 
