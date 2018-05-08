@@ -1,0 +1,51 @@
+###
+# https://github.com/github/gitignore/tree/master/Global
+#
+
+###
+# eclipse
+#
+.metadata
+.classpath
+.loadpath
+.project
+.recommenders
+.settings/
+*.bak
+*.launch
+*.swp
+*.tmp
+*~.nib
+bin/
+local.properties
+tmp/
+*.log
+# sts
+.springBeans
+
+###
+# maven
+#
+.mvn/timing.properties
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+target/
+
+###
+# vim
+#
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
